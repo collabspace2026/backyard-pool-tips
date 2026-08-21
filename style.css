@@ -462,6 +462,58 @@ h1,h2,h3,h4{font-family:var(--font-display);font-weight:600;margin:0 0 16px;colo
   font-weight:600;
 }
 
+/* Page header (subpages) */
+.page-hero{
+  background:linear-gradient(160deg,var(--navy) 0%,var(--teal) 100%);
+  color:#fff;
+  padding:64px 0 56px;
+}
+.page-hero-inner{
+  max-width:var(--content-width);
+  margin:0 auto;
+  padding:0 28px;
+}
+.page-hero .section-label{color:var(--aqua);}
+.page-hero h1{color:#fff;font-size:44px;max-width:760px;margin-bottom:16px;letter-spacing:-.5px;}
+.page-hero p{color:#d8e9e6;font-size:17px;max-width:640px;margin:0;}
+.page-meta{font-size:13px;color:#a9c9c4;margin-top:18px;}
+
+/* Prose card (subpages) */
+.prose-wrap{padding:70px 0 20px;}
+.prose-card{
+  background:#fff;
+  border-radius:20px;
+  box-shadow:var(--card-shadow);
+  padding:60px;
+  max-width:min(900px, calc(100% - 56px));
+  margin:0 auto 24px;
+}
+.prose-card h2{font-size:23px;margin-top:40px;}
+.prose-card h2:first-child{margin-top:0;}
+.prose-card h3{font-size:17px;margin-top:26px;font-family:var(--font-body);color:var(--navy);}
+.prose-card p{color:var(--gray);font-size:15.5px;line-height:1.75;margin-bottom:16px;}
+.prose-card p:last-child{margin-bottom:0;}
+.prose-card ul{margin-bottom:16px;}
+.prose-card li{
+  padding:6px 0 6px 22px;
+  position:relative;
+  color:var(--gray);
+  font-size:15.5px;
+  line-height:1.7;
+}
+.prose-card li::before{content:'';position:absolute;left:2px;top:16px;width:5px;height:5px;border-radius:50%;background:var(--coral);}
+.prose-card a{color:var(--coral);font-weight:600;}
+.prose-card a:hover{text-decoration:underline;}
+.prose-card strong{color:var(--navy);}
+.back-link{
+  display:inline-block;
+  margin:32px 0 0;
+  font-size:14px;
+  font-weight:700;
+  color:var(--teal);
+}
+.back-link:hover{color:var(--coral);}
+
 /* Disclosure bar */
 .disclosure-bar{
   max-width:min(var(--content-width), calc(100% - 56px));
@@ -544,6 +596,8 @@ footer{background:var(--navy);color:#a9c3bf;border-top:1px solid rgba(255,255,25
   .footer-main{grid-template-columns:1fr 1fr;}
   .disclosure-bar{grid-template-columns:1fr;text-align:left;}
   .disclosure-bar p,.disclosure-bar a{grid-column:1;}
+  .prose-card{padding:40px;}
+  .page-hero h1{font-size:34px;}
 }
 @media (max-width: 680px){
   .header-inner{flex-wrap:wrap;padding:16px 20px;}
