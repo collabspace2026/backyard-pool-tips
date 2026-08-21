@@ -195,10 +195,12 @@ h1,h2,h3,h4{font-family:var(--font-display);font-weight:600;margin:0 0 16px;colo
   overflow:hidden;
   box-shadow:0 20px 50px rgba(3,20,22,.35);
 }
+.hero-feature-card:hover .hero-feature-image{transform:scale(1.06);}
 .hero-feature-image{
   height:220px;
-  background:linear-gradient(135deg,#ec6a4e,#f0916f);
+  background:url('images/variable-speed-pool-pumps.jpg') center/cover no-repeat;
   display:flex;align-items:flex-end;padding:18px;
+  transition:transform .4s ease;
 }
 .hero-feature-image span{
   background:rgba(255,255,255,.92);color:var(--navy);
@@ -276,10 +278,11 @@ h1,h2,h3,h4{font-family:var(--font-display);font-weight:600;margin:0 0 16px;colo
 .featured-visual{
   flex:1;
   min-height:440px;
-  background:linear-gradient(0deg,rgba(10,47,51,.55),rgba(10,47,51,.1)),
-    url('images/above-ground-pool-pump.webp') center/cover no-repeat;
+  background:url('images/above-ground-pool-pump.webp') center/cover no-repeat;
   display:flex;align-items:flex-end;padding:24px;
+  transition:transform .4s ease;
 }
+.featured-guide:hover .featured-visual{transform:scale(1.05);}
 .guide-badge{
   background:rgba(255,255,255,.92);color:var(--navy);
   font-size:11.5px;font-weight:700;letter-spacing:.6px;text-transform:uppercase;
@@ -304,33 +307,31 @@ h1,h2,h3,h4{font-family:var(--font-display);font-weight:600;margin:0 0 16px;colo
   display:flex;
   flex-direction:column;
 }
-.review-visual{height:190px;display:flex;align-items:flex-end;padding:14px;}
+.review-visual{height:190px;display:flex;align-items:flex-end;padding:14px;overflow:hidden;position:relative;}
 .review-visual span{
+  position:relative;z-index:1;
   background:rgba(255,255,255,.92);color:var(--navy);
   font-size:10.5px;font-weight:700;letter-spacing:.5px;text-transform:uppercase;
   padding:5px 10px;border-radius:16px;
 }
 .review-visual.pump{
-  background:linear-gradient(0deg,rgba(10,47,51,.55),rgba(10,47,51,.1)),
-    url('images/inground-pool-pump.webp') center/cover no-repeat;
+  background:url('images/inground-pool-pump.webp') center 40%/cover no-repeat;
 }
 .review-visual.chemicals{
-  background:linear-gradient(0deg,rgba(90,30,15,.5),rgba(90,30,15,.1)),
-    url('images/salt-pool-chrolinator.jpg') center/cover no-repeat;
+  background:url('images/salt-pool-chrolinator.jpg') center 40%/cover no-repeat;
 }
 .review-visual.covers{
-  background:linear-gradient(0deg,rgba(10,47,51,.55),rgba(10,47,51,.1)),
-    url('images/pool-covers.jpg') center/cover no-repeat;
+  background:url('images/pool-covers.jpg') center/cover no-repeat;
 }
 .review-visual.cleaning{
-  background:linear-gradient(0deg,rgba(10,47,51,.55),rgba(10,47,51,.1)),
-    url('images/robot-cleaner.jpg') center/cover no-repeat;
+  background:url('images/robot-cleaner.jpg') center/cover no-repeat;
 }
 .review-visual.heating{background:linear-gradient(135deg,#c9552f,#f0916f);}
 .review-visual.filtration{
-  background:linear-gradient(0deg,rgba(10,47,51,.55),rgba(10,47,51,.1)),
-    url('images/filter-cleaning.jpg') center/cover no-repeat;
+  background:url('images/filter-cleaning.jpg') center/cover no-repeat;
 }
+.review-card:hover .review-visual{transform:scale(1.06);}
+.review-visual{transition:transform .4s ease;}
 .review-card > div{padding:16px 18px 20px;}
 .review-card h4{font-size:15.5px;margin-bottom:8px;}
 .review-card p{font-size:13px;color:var(--gray);margin-bottom:10px;}
@@ -402,15 +403,18 @@ h1,h2,h3,h4{font-family:var(--font-display);font-weight:600;margin:0 0 16px;colo
   box-shadow:var(--card-shadow);
 }
 .maintenance-image{
-  background:linear-gradient(0deg,rgba(10,47,51,.5),rgba(10,47,51,.05)),
-    url('images/ocean-sunset.jpg') center/cover no-repeat;
+  background:url('images/cloudy-pool.jpg') center/cover no-repeat;
   display:flex;align-items:flex-end;padding:32px;
+  overflow:hidden;position:relative;
+  transition:transform .4s ease;
 }
 .maintenance-image span{
+  position:relative;z-index:1;
   background:rgba(255,255,255,.92);color:var(--navy);
   font-size:11.5px;font-weight:700;letter-spacing:.5px;text-transform:uppercase;
   padding:6px 12px;border-radius:20px;
 }
+.maintenance-section:hover .maintenance-image{transform:scale(1.04);}
 .maintenance-copy{
   background:#fdfdfb;
   padding:70px 60px;
