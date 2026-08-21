@@ -575,7 +575,7 @@ h1,h2,h3,h4{font-family:var(--font-display);font-weight:600;margin:0 0 16px;colo
   overflow:hidden;
   box-shadow:var(--card-shadow);
 }
-.article-banner img{width:100%;height:380px;object-fit:cover;display:block;}
+.article-banner img{width:100%;height:480px;object-fit:cover;display:block;}
 
 /* Inline affiliate disclosure note */
 .prose-card p.disclosure-note{
@@ -667,6 +667,29 @@ h1,h2,h3,h4{font-family:var(--font-display);font-weight:600;margin:0 0 16px;colo
 .prose-card a{color:var(--coral);font-weight:600;}
 .prose-card a:hover{text-decoration:underline;}
 .prose-card strong{color:var(--navy);}
+
+/* Label + description rows (specs, verdicts by scenario) */
+.spec-list{margin:0 0 16px;}
+.spec-row{
+  display:grid;
+  grid-template-columns:200px 1fr;
+  gap:8px 20px;
+  padding:12px 0;
+  border-top:1px solid var(--line);
+}
+.spec-row:first-child{border-top:0;padding-top:0;}
+.spec-list dt{
+  font-weight:700;
+  color:var(--navy);
+  font-size:15px;
+  line-height:1.5;
+}
+.spec-list dd{
+  margin:0;
+  color:var(--gray);
+  font-size:15.5px;
+  line-height:1.7;
+}
 .back-link{
   display:inline-block;
   margin:32px 0 0;
@@ -765,6 +788,8 @@ footer{background:var(--navy);color:#a9c3bf;border-top:1px solid rgba(255,255,25
   .page-hero h1{font-size:34px;}
 }
 @media (max-width: 680px){
+  .article-banner img{height:260px;}
+  .spec-row{grid-template-columns:1fr;gap:4px;}
   .header-inner{flex-wrap:wrap;padding:16px 20px;}
   .header-inner nav{display:none;}
   .hero-story h1{font-size:30px;}
