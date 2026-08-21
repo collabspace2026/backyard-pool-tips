@@ -497,6 +497,58 @@ h1,h2,h3,h4{font-family:var(--font-display);font-weight:600;margin:0 0 16px;colo
 .owners-card p{color:var(--gray);font-size:14.5px;line-height:1.7;margin:0;}
 .owners-card .section-label{margin-bottom:4px;}
 
+/* Product recommendation cards (buying guides) */
+.product-card{
+  background:#fff;
+  border-radius:16px;
+  box-shadow:var(--card-shadow);
+  padding:28px 30px;
+  margin-bottom:20px;
+}
+.product-card-head{display:flex;align-items:flex-start;gap:14px;margin-bottom:14px;}
+.product-number{
+  flex-shrink:0;
+  display:flex;align-items:center;justify-content:center;
+  width:34px;height:34px;border-radius:50%;
+  background:var(--sand-dark);color:var(--navy);
+  font-family:var(--font-display);font-weight:700;font-size:15px;
+}
+.product-badge{
+  display:inline-block;
+  background:var(--coral);
+  color:#fff;
+  font-size:10.5px;
+  font-weight:700;
+  letter-spacing:.5px;
+  text-transform:uppercase;
+  padding:4px 11px;
+  border-radius:20px;
+  margin-bottom:8px;
+}
+.product-card h3{font-size:19px;margin:0 0 4px;}
+.product-card .product-brand{font-size:13px;color:var(--gray-light);font-weight:600;margin:0;}
+.product-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin:16px 0;}
+.product-col h4{font-size:11px;text-transform:uppercase;letter-spacing:.5px;margin:0 0 8px;font-family:var(--font-body);font-weight:700;}
+.product-col.pros h4{color:var(--teal);}
+.product-col.cons h4{color:var(--coral);}
+.product-col ul{margin:0;}
+.product-col li{font-size:14px;color:var(--gray);padding:4px 0 4px 18px;position:relative;line-height:1.5;}
+.product-col.pros li::before{content:'+';position:absolute;left:0;color:var(--teal);font-weight:700;}
+.product-col.cons li::before{content:'\2212';position:absolute;left:0;color:var(--coral);font-weight:700;}
+.product-verdict{font-size:14px;color:var(--ink);background:var(--sand);border-radius:10px;padding:14px 16px;margin:14px 0 0;line-height:1.6;}
+.product-verdict strong{color:var(--navy);}
+.product-cta{
+  display:inline-flex;align-items:center;gap:8px;
+  margin-top:16px;
+  background:var(--navy);
+  color:#fff;
+  font-size:14px;
+  font-weight:700;
+  padding:12px 22px;
+  border-radius:8px;
+}
+.product-cta:hover{background:var(--teal);}
+
 /* Page header (subpages) */
 .page-hero{
   background:linear-gradient(160deg,var(--navy) 0%,var(--teal) 100%);
@@ -677,6 +729,7 @@ footer{background:var(--navy);color:#a9c3bf;border-top:1px solid rgba(255,255,25
 /* Responsive */
 @media (max-width: 980px){
   .owners-card{grid-template-columns:1fr;text-align:center;}
+  .product-grid{grid-template-columns:1fr;gap:14px;}
   .owners-card img{max-width:180px;margin:0 auto;}
   .hero-inner{grid-template-columns:1fr;}
   .hero-story h1{font-size:38px;}

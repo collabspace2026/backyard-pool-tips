@@ -2,6 +2,10 @@
 
 > Independent pool equipment reviews and maintenance advice for backyard pool owners, written by Tom and Shirley Springsteen from 30 years running a pool shop. Buying guides start with the pool, not the product; recommendations are based on running cost and practical suitability, not commission.
 
+## Buying guides
+
+- [Best Pool Pump for Above-Ground Pools](https://backyardpooltips.com/best-pool-pump-above-ground): Flow rate versus pool size, sizing, running costs, noise, and five pumps worth considering.
+
 ## Maintenance guides
 
 - [Cloudy Water? Start Here.](https://backyardpooltips.com/cloudy-water): A complete, step-by-step guide to fixing cloudy pool water — testing, balancing, and filtering in the right order, every likely cause explained, and the mistake that makes it worse.
@@ -17,4 +21,4 @@
 
 ## Notes
 
-Buying guides for pool pumps, covers, and cleaning equipment are in progress and will be added to this file as they're published.
+More buying guides (inground pumps, salt vs chlorine, covers, cleaning equipment) are in progress and will be added to this file as they're published.
