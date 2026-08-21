@@ -24,6 +24,13 @@
 - [Closing a Pool for Winter](https://backyardpooltips.com/closing-a-pool): What to drain, what to leave alone, and the step most guides skip when winterizing.
 - [Common Pump & Filter Problems](https://backyardpooltips.com/pump-filter-problems): Symptom-to-fix troubleshooting for losing prime, short cycling, rising pressure, weak flow, and cloudy water.
 - [Pool Water Chemistry Cheat Sheet](https://backyardpooltips.com/pool-chemistry-cheat-sheet): Every ideal range in one place - free chlorine, pH, alkalinity, calcium hardness, CYA and salt - plus the correct order to balance them.
+- [Sand Filter Pressure Gauge Not Moving](https://backyardpooltips.com/sand-filter-pressure-gauge-not-moving): The specific causes behind a gauge stuck at zero, stuck at one reading, or not climbing as expected, and how to replace one.
+- [Why Does My Pool Foam?](https://backyardpooltips.com/why-does-my-pool-foam): What actually causes pool foam - algaecide, low calcium hardness, bather load - and how to clear and prevent it.
+- [Black Algae vs Green Algae](https://backyardpooltips.com/black-algae-vs-green-algae): Why black algae resists normal chlorine levels and needs a different brush-and-shock treatment than green algae.
+- [Salt Cell Not Producing Chlorine](https://backyardpooltips.com/salt-cell-not-producing-chlorine): Six specific causes to check in order - low salt, scale, cold water, low flow, cell age, and wiring faults.
+- [Using Bleach Instead of Pool Chlorine](https://backyardpooltips.com/using-bleach-instead-of-pool-chlorine): The real dosing math and cost comparison for using plain household bleach as pool chlorine, and what to avoid.
+- [Pool Losing Water at the Skimmer Line](https://backyardpooltips.com/pool-losing-water-at-skimmer-line): The specific leak points around a skimmer - housing cracks, gasket wear, liner tears - and how to narrow down which one.
+- [Cloudy Pool After Adding Shock](https://backyardpooltips.com/cloudy-pool-after-shock): Why a brief haze after shocking is normal, and the specific causes when it lingers past 2-3 days.
 
 ## About
 

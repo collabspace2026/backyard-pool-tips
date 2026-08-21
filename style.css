@@ -276,7 +276,8 @@ h1,h2,h3,h4{font-family:var(--font-display);font-weight:600;margin:0 0 16px;colo
 .featured-visual{
   flex:1;
   min-height:440px;
-  background:linear-gradient(135deg,#136572,#3fc9c0);
+  background:linear-gradient(0deg,rgba(10,47,51,.55),rgba(10,47,51,.1)),
+    url('images/above-ground-pool-pump.webp') center/cover no-repeat;
   display:flex;align-items:flex-end;padding:24px;
 }
 .guide-badge{
@@ -309,12 +310,26 @@ h1,h2,h3,h4{font-family:var(--font-display);font-weight:600;margin:0 0 16px;colo
   font-size:10.5px;font-weight:700;letter-spacing:.5px;text-transform:uppercase;
   padding:5px 10px;border-radius:16px;
 }
-.review-visual.pump{background:linear-gradient(135deg,#0a2f33,#136572);}
-.review-visual.chemicals{background:linear-gradient(135deg,#ec6a4e,#f0916f);}
-.review-visual.covers{background:linear-gradient(135deg,#1b8a99,#0a2f33);}
+.review-visual.pump{
+  background:linear-gradient(0deg,rgba(10,47,51,.55),rgba(10,47,51,.1)),
+    url('images/inground-pool-pump.webp') center/cover no-repeat;
+}
+.review-visual.chemicals{
+  background:linear-gradient(0deg,rgba(90,30,15,.5),rgba(90,30,15,.1)),
+    url('images/salt-pool-chrolinator.jpg') center/cover no-repeat;
+}
+.review-visual.covers{
+  background:linear-gradient(0deg,rgba(10,47,51,.55),rgba(10,47,51,.1)),
+    url('images/pool-covers.jpg') center/cover no-repeat;
+}
 .review-visual.cleaning{
   background:linear-gradient(0deg,rgba(10,47,51,.55),rgba(10,47,51,.1)),
     url('images/robot-cleaner.jpg') center/cover no-repeat;
+}
+.review-visual.heating{background:linear-gradient(135deg,#c9552f,#f0916f);}
+.review-visual.filtration{
+  background:linear-gradient(0deg,rgba(10,47,51,.55),rgba(10,47,51,.1)),
+    url('images/filter-cleaning.jpg') center/cover no-repeat;
 }
 .review-card > div{padding:16px 18px 20px;}
 .review-card h4{font-size:15.5px;margin-bottom:8px;}
@@ -576,6 +591,20 @@ h1,h2,h3,h4{font-family:var(--font-display);font-weight:600;margin:0 0 16px;colo
   box-shadow:var(--card-shadow);
 }
 .article-banner img{width:100%;height:480px;object-fit:cover;display:block;}
+
+.prose-card figure.inline-figure{
+  margin:20px 0;
+  border-radius:16px;
+  overflow:hidden;
+  box-shadow:var(--card-shadow);
+}
+.prose-card figure.inline-figure img{width:100%;max-height:340px;object-fit:cover;display:block;}
+.prose-card figure.inline-figure figcaption{
+  padding:10px 16px;
+  font-size:13px;
+  color:var(--gray);
+  background:var(--sand-dark);
+}
 
 /* Inline affiliate disclosure note */
 .prose-card p.disclosure-note{
