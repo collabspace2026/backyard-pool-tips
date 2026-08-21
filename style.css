@@ -637,6 +637,61 @@ h1,h2,h3,h4{font-family:var(--font-display);font-weight:600;margin:0 0 16px;colo
   .guides-index{grid-template-columns:1fr;}
 }
 
+/* Glossary */
+.glossary-controls{
+  max-width:min(900px, calc(100% - 56px));
+  margin:0 auto 8px;
+  padding:0 4px;
+}
+.glossary-categories{
+  display:flex;flex-wrap:wrap;gap:8px;
+  margin-bottom:16px;
+}
+.glossary-categories button{
+  font-family:var(--font-body);
+  font-size:13px;font-weight:700;
+  padding:8px 16px;
+  border:2px solid var(--sand-dark);
+  border-radius:20px;
+  background:#fff;
+  color:var(--gray);
+  cursor:pointer;
+  transition:border-color .15s ease,color .15s ease,background .15s ease;
+}
+.glossary-categories button:hover{border-color:var(--teal-light);}
+.glossary-categories button.active{
+  background:var(--navy);border-color:var(--navy);color:#fff;
+}
+.glossary-letters{
+  display:flex;flex-wrap:wrap;gap:6px;
+  padding:14px 16px;
+  background:#fff;
+  border-radius:12px;
+  box-shadow:var(--card-shadow);
+  margin-bottom:8px;
+}
+.glossary-letters a{
+  display:flex;align-items:center;justify-content:center;
+  width:28px;height:28px;
+  font-size:13px;font-weight:700;color:var(--navy);
+  border-radius:6px;
+}
+.glossary-letters a:hover{background:var(--sand);color:var(--coral);}
+.glossary-letter-heading{
+  font-size:22px;
+  margin:34px 0 10px;
+  padding-top:6px;
+  color:var(--teal);
+}
+.glossary-letter-heading:first-of-type{margin-top:8px;}
+.term-tags{margin-top:6px;display:flex;flex-wrap:wrap;gap:6px;}
+.term-tag{
+  font-size:10.5px;font-weight:700;letter-spacing:.3px;text-transform:uppercase;
+  color:var(--teal);background:var(--sand);
+  padding:3px 9px;border-radius:10px;
+}
+.no-terms-message{color:var(--gray);text-align:center;padding:40px 0;}
+
 /* Page header (subpages) */
 .page-hero{
   background:linear-gradient(160deg,var(--navy) 0%,var(--teal) 100%);
