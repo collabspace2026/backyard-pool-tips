@@ -31,6 +31,7 @@
 - [Using Bleach Instead of Pool Chlorine](https://backyardpooltips.com/using-bleach-instead-of-pool-chlorine): The real dosing math and cost comparison for using plain household bleach as pool chlorine, and what to avoid.
 - [Pool Losing Water at the Skimmer Line](https://backyardpooltips.com/pool-losing-water-at-skimmer-line): The specific leak points around a skimmer - housing cracks, gasket wear, liner tears - and how to narrow down which one.
 - [Cloudy Pool After Adding Shock](https://backyardpooltips.com/cloudy-pool-after-shock): Why a brief haze after shocking is normal, and the specific causes when it lingers past 2-3 days.
+- [When to Close Your Pool: A Climate Zone Guide](https://backyardpooltips.com/when-to-close-your-pool): Closing timing isn't one-size-fits-all - how to pick the right week based on water temperature and first frost date by US climate zone.
 
 ## Reference
 
@@ -45,4 +46,4 @@
 
 ## Notes
 
-All 8 buying guides and 16 maintenance guides are published as of August 2026, plus a maintenance guide index and a pool terms glossary.
+All 8 buying guides and 17 maintenance guides are published as of August 2026, plus a maintenance guide index and a pool terms glossary.
