@@ -539,7 +539,7 @@ h1,h2,h3,h4{font-family:var(--font-display);font-weight:600;margin:0 0 16px;colo
 .product-col.cons li::before{content:'\2212';color:var(--coral);}
 .product-verdict{font-size:14px;color:var(--ink);background:var(--sand);border-radius:10px;padding:14px 16px;margin:14px 0 0;line-height:1.6;}
 .product-verdict strong{color:var(--navy);}
-.product-cta{
+.product-card a.product-cta{
   display:inline-flex;align-items:center;gap:8px;
   margin-top:16px;
   background:var(--navy);
@@ -549,7 +549,7 @@ h1,h2,h3,h4{font-family:var(--font-display);font-weight:600;margin:0 0 16px;colo
   padding:12px 22px;
   border-radius:8px;
 }
-.product-cta:hover{background:var(--teal);}
+.product-card a.product-cta:hover{background:var(--teal);}
 
 /* Page header (subpages) */
 .page-hero{
@@ -578,7 +578,7 @@ h1,h2,h3,h4{font-family:var(--font-display);font-weight:600;margin:0 0 16px;colo
 .article-banner img{width:100%;height:380px;object-fit:cover;display:block;}
 
 /* Inline affiliate disclosure note */
-.disclosure-note{
+.prose-card p.disclosure-note{
   background:var(--sand-dark);
   border-radius:12px;
   padding:16px 20px;
@@ -643,11 +643,11 @@ h1,h2,h3,h4{font-family:var(--font-display);font-weight:600;margin:0 0 16px;colo
 }
 .prose-card h2{font-size:23px;margin-top:40px;}
 .prose-card h2:first-child{margin-top:0;}
-.prose-card h3{font-size:17px;margin-top:26px;font-family:var(--font-body);color:var(--navy);}
+.prose-card > h3{font-size:17px;margin-top:26px;font-family:var(--font-body);color:var(--navy);}
 .prose-card p{color:var(--gray);font-size:15.5px;line-height:1.75;margin-bottom:16px;}
 .prose-card p:last-child{margin-bottom:0;}
-.prose-card ul{margin-bottom:16px;}
-.prose-card li{
+.prose-card > ul{margin-bottom:16px;}
+.prose-card > ul > li{
   display:flex;
   align-items:baseline;
   gap:12px;
@@ -656,7 +656,7 @@ h1,h2,h3,h4{font-family:var(--font-display);font-weight:600;margin:0 0 16px;colo
   font-size:15.5px;
   line-height:1.7;
 }
-.prose-card li::before{
+.prose-card > ul > li::before{
   content:'';
   flex-shrink:0;
   width:5px;height:5px;
