@@ -195,14 +195,20 @@ h1,h2,h3,h4{font-family:var(--font-display);font-weight:600;margin:0 0 16px;colo
   overflow:hidden;
   box-shadow:0 20px 50px rgba(3,20,22,.35);
 }
-.hero-feature-card:hover .hero-feature-image{transform:scale(1.06);}
 .hero-feature-image{
   height:220px;
-  background:url('images/variable-speed-pool-pumps.jpg') center/cover no-repeat;
   display:flex;align-items:flex-end;padding:18px;
+  overflow:hidden;position:relative;
+}
+.hero-feature-image::before{
+  content:'';
+  position:absolute;inset:0;
+  background:var(--navy) url('images/variable-speed-pool-pumps.jpg') center/contain no-repeat;
   transition:transform .4s ease;
 }
+.hero-feature-card:hover .hero-feature-image::before{transform:scale(1.06);}
 .hero-feature-image span{
+  position:relative;z-index:1;
   background:rgba(255,255,255,.92);color:var(--navy);
   font-size:11.5px;font-weight:700;letter-spacing:.6px;text-transform:uppercase;
   padding:6px 12px;border-radius:20px;
@@ -278,12 +284,18 @@ h1,h2,h3,h4{font-family:var(--font-display);font-weight:600;margin:0 0 16px;colo
 .featured-visual{
   flex:1;
   min-height:440px;
-  background:url('images/above-ground-pool-pump.webp') center/cover no-repeat;
   display:flex;align-items:flex-end;padding:24px;
+  overflow:hidden;position:relative;
+}
+.featured-visual::before{
+  content:'';
+  position:absolute;inset:0;
+  background:var(--navy) url('images/above-ground-pool-pump.webp') center/contain no-repeat;
   transition:transform .4s ease;
 }
-.featured-guide:hover .featured-visual{transform:scale(1.05);}
+.featured-guide:hover .featured-visual::before{transform:scale(1.05);}
 .guide-badge{
+  position:relative;z-index:1;
   background:rgba(255,255,255,.92);color:var(--navy);
   font-size:11.5px;font-weight:700;letter-spacing:.6px;text-transform:uppercase;
   padding:6px 12px;border-radius:20px;
@@ -308,30 +320,35 @@ h1,h2,h3,h4{font-family:var(--font-display);font-weight:600;margin:0 0 16px;colo
   flex-direction:column;
 }
 .review-visual{height:190px;display:flex;align-items:flex-end;padding:14px;overflow:hidden;position:relative;}
+.review-visual::before{
+  content:'';
+  position:absolute;inset:0;
+  background-color:var(--navy);background-position:center;background-repeat:no-repeat;
+  transition:transform .4s ease;
+}
 .review-visual span{
   position:relative;z-index:1;
   background:rgba(255,255,255,.92);color:var(--navy);
   font-size:10.5px;font-weight:700;letter-spacing:.5px;text-transform:uppercase;
   padding:5px 10px;border-radius:16px;
 }
-.review-visual.pump{
-  background:url('images/inground-pool-pump.webp') center 40%/cover no-repeat;
+.review-visual.pump::before{
+  background-image:url('images/inground-pool-pump.webp');background-size:contain;
 }
-.review-visual.chemicals{
-  background:url('images/salt-pool-chrolinator.jpg') center 40%/cover no-repeat;
+.review-visual.chemicals::before{
+  background-image:url('images/salt-pool-chrolinator.jpg');background-size:contain;
 }
-.review-visual.covers{
-  background:url('images/pool-covers.jpg') center/cover no-repeat;
+.review-visual.covers::before{
+  background-image:url('images/pool-covers.jpg');background-size:cover;
 }
-.review-visual.cleaning{
-  background:url('images/robot-cleaner.jpg') center/cover no-repeat;
+.review-visual.cleaning::before{
+  background-image:url('images/robot-cleaner.jpg');background-size:cover;
 }
 .review-visual.heating{background:linear-gradient(135deg,#c9552f,#f0916f);}
-.review-visual.filtration{
-  background:url('images/filter-cleaning.jpg') center/cover no-repeat;
+.review-visual.filtration::before{
+  background-image:url('images/filter-cleaning.jpg');background-size:cover;
 }
-.review-card:hover .review-visual{transform:scale(1.06);}
-.review-visual{transition:transform .4s ease;}
+.review-card:hover .review-visual::before{transform:scale(1.06);}
 .review-card > div{padding:16px 18px 20px;}
 .review-card h4{font-size:15.5px;margin-bottom:8px;}
 .review-card p{font-size:13px;color:var(--gray);margin-bottom:10px;}
@@ -403,18 +420,22 @@ h1,h2,h3,h4{font-family:var(--font-display);font-weight:600;margin:0 0 16px;colo
   box-shadow:var(--card-shadow);
 }
 .maintenance-image{
-  background:url('images/cloudy-pool.jpg') center/cover no-repeat;
   display:flex;align-items:flex-end;padding:32px;
   overflow:hidden;position:relative;
+}
+.maintenance-image::before{
+  content:'';
+  position:absolute;inset:0;
+  background:url('images/cloudy-pool.jpg') center/cover no-repeat;
   transition:transform .4s ease;
 }
+.maintenance-section:hover .maintenance-image::before{transform:scale(1.04);}
 .maintenance-image span{
   position:relative;z-index:1;
   background:rgba(255,255,255,.92);color:var(--navy);
   font-size:11.5px;font-weight:700;letter-spacing:.5px;text-transform:uppercase;
   padding:6px 12px;border-radius:20px;
 }
-.maintenance-section:hover .maintenance-image{transform:scale(1.04);}
 .maintenance-copy{
   background:#fdfdfb;
   padding:70px 60px;
