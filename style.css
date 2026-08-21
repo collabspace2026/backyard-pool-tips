@@ -403,6 +403,18 @@ h1,h2,h3,h4{font-family:var(--font-display);font-weight:600;margin:0 0 16px;colo
 }
 .maintenance-copy h2{font-size:32px;}
 .maintenance-copy > p{color:var(--gray);font-size:15.5px;max-width:420px;margin-bottom:26px;}
+.maintenance-links{
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px 22px;
+  margin-top:22px;
+}
+.maintenance-links a{
+  font-size:13.5px;
+  font-weight:700;
+  color:var(--teal);
+}
+.maintenance-links a:hover{color:var(--coral);}
 
 /* About */
 .about-section{
@@ -477,6 +489,70 @@ h1,h2,h3,h4{font-family:var(--font-display);font-weight:600;margin:0 0 16px;colo
 .page-hero h1{color:#fff;font-size:44px;max-width:760px;margin-bottom:16px;letter-spacing:-.5px;}
 .page-hero p{color:#d8e9e6;font-size:17px;max-width:640px;margin:0;}
 .page-meta{font-size:13px;color:#a9c9c4;margin-top:18px;}
+
+/* Article banner image (maintenance posts) */
+.article-banner{
+  max-width:min(900px, calc(100% - 56px));
+  margin:24px auto 0;
+  border-radius:20px;
+  overflow:hidden;
+  box-shadow:var(--card-shadow);
+}
+.article-banner img{width:100%;height:380px;object-fit:cover;display:block;}
+
+/* Inline affiliate disclosure note */
+.disclosure-note{
+  background:var(--sand-dark);
+  border-radius:12px;
+  padding:16px 20px;
+  font-size:13.5px;
+  color:var(--gray);
+  margin-bottom:30px;
+}
+.disclosure-note a{color:var(--coral);font-weight:600;}
+
+/* Numbered step list */
+.steps-list{counter-reset:step;margin:24px 0;}
+.steps-list li{
+  list-style:none;
+  padding:18px 0 18px 54px;
+  position:relative;
+  border-top:1px solid var(--line);
+}
+.steps-list li:first-child{border-top:0;padding-top:6px;}
+.steps-list li::before{
+  counter-increment:step;
+  content:counter(step);
+  position:absolute;
+  left:0;top:20px;
+  width:30px;height:30px;
+  border-radius:50%;
+  background:var(--teal);
+  color:#fff;
+  font-family:var(--font-display);
+  font-weight:700;
+  font-size:14px;
+  display:flex;align-items:center;justify-content:center;
+}
+.steps-list li:first-child::before{top:6px;}
+.steps-list h3{margin:0 0 6px;font-size:16.5px;}
+.steps-list p{margin-bottom:0;}
+
+/* Symptom / cause / fix items */
+.fix-item{border-top:1px solid var(--line);padding:22px 0;}
+.fix-item:first-child{border-top:0;padding-top:0;}
+.fix-item h3{
+  color:var(--coral);
+  font-size:13px;
+  text-transform:uppercase;
+  letter-spacing:.5px;
+  margin:0 0 10px;
+  font-family:var(--font-body);
+  font-weight:700;
+}
+.fix-item p{margin-bottom:8px;}
+.fix-item p:last-child{margin-bottom:0;}
+.fix-item .likely-cause{font-weight:700;color:var(--navy);}
 
 /* Prose card (subpages) */
 .prose-wrap{padding:70px 0 20px;}
