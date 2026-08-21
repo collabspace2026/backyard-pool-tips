@@ -151,6 +151,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://backyardpooltips.com/all-maintenance-guides</loc>
+    <lastmod>2026-08-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://backyardpooltips.com/pool-glossary</loc>
+    <lastmod>2026-08-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://backyardpooltips.com/about</loc>
     <lastmod>2026-08-21</lastmod>
     <changefreq>monthly</changefreq>

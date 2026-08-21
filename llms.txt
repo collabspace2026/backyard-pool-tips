@@ -32,6 +32,11 @@
 - [Pool Losing Water at the Skimmer Line](https://backyardpooltips.com/pool-losing-water-at-skimmer-line): The specific leak points around a skimmer - housing cracks, gasket wear, liner tears - and how to narrow down which one.
 - [Cloudy Pool After Adding Shock](https://backyardpooltips.com/cloudy-pool-after-shock): Why a brief haze after shocking is normal, and the specific causes when it lingers past 2-3 days.
 
+## Reference
+
+- [All Pool Maintenance Guides](https://backyardpooltips.com/all-maintenance-guides): Every maintenance and troubleshooting guide organized by category, with a search box.
+- [Pool Terms Glossary](https://backyardpooltips.com/pool-glossary): Plain-English definitions for the chemistry and equipment terms used across our guides.
+
 ## About
 
 - [About Backyard Pool Tips](https://backyardpooltips.com/about): Who runs the site and how recommendations are made.
@@ -40,4 +45,4 @@
 
 ## Notes
 
-All 8 buying guides and 9 maintenance guides are published as of August 2026.
+All 8 buying guides and 16 maintenance guides are published as of August 2026, plus a maintenance guide index and a pool terms glossary.
