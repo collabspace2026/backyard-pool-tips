@@ -373,10 +373,14 @@ h1,h2,h3,h4{font-family:var(--font-display);font-weight:600;margin:0 0 16px;colo
 
 /* Maintenance */
 .maintenance-section{
-  max-width:none;
+  max-width:var(--content-width);
+  margin:64px auto;
+  border-radius:20px;
+  overflow:hidden;
   display:grid;
   grid-template-columns:1fr 1fr;
   min-height:420px;
+  box-shadow:var(--card-shadow);
 }
 .maintenance-image{
   background:linear-gradient(0deg,rgba(10,47,51,.5),rgba(10,47,51,.05)),
