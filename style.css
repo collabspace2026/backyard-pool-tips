@@ -125,19 +125,13 @@ h1,h2,h3,h4{font-family:var(--font-display);font-weight:600;margin:0 0 16px;colo
 
 /* Hero */
 .hero-full{
-  background:linear-gradient(160deg,var(--navy) 0%,var(--teal) 68%,var(--teal-light) 100%);
+  background:
+    linear-gradient(100deg,rgba(10,47,51,.88) 0%,rgba(10,47,51,.55) 45%,rgba(10,47,51,.22) 75%),
+    url('images/hero-pool.jpg') center/cover no-repeat;
   color:#fff;
   padding:76px 0 90px;
   position:relative;
   overflow:hidden;
-}
-.hero-full::after{
-  content:'';
-  position:absolute;
-  right:-120px;top:-140px;
-  width:420px;height:420px;
-  border-radius:50%;
-  background:radial-gradient(circle,rgba(63,201,192,.35) 0%,rgba(63,201,192,0) 70%);
 }
 .hero-inner{
   max-width:var(--content-width);
@@ -300,7 +294,10 @@ h1,h2,h3,h4{font-family:var(--font-display);font-weight:600;margin:0 0 16px;colo
 .review-visual.pump{background:linear-gradient(135deg,#0a2f33,#136572);}
 .review-visual.chemicals{background:linear-gradient(135deg,#ec6a4e,#f0916f);}
 .review-visual.covers{background:linear-gradient(135deg,#1b8a99,#0a2f33);}
-.review-visual.cleaning{background:linear-gradient(135deg,#136572,#3fc9c0);}
+.review-visual.cleaning{
+  background:linear-gradient(0deg,rgba(10,47,51,.55),rgba(10,47,51,.1)),
+    url('images/robot-cleaner.jpg') center/cover no-repeat;
+}
 .review-card > div{padding:16px 18px 20px;}
 .review-card h4{font-size:15.5px;margin-bottom:8px;}
 .review-card p{font-size:13px;color:var(--gray);margin-bottom:10px;}
@@ -364,7 +361,8 @@ h1,h2,h3,h4{font-family:var(--font-display);font-weight:600;margin:0 0 16px;colo
   min-height:420px;
 }
 .maintenance-image{
-  background:linear-gradient(160deg,#f0916f 0%,#3fc9c0 55%,#12707d 100%);
+  background:linear-gradient(0deg,rgba(10,47,51,.5),rgba(10,47,51,.05)),
+    url('images/ocean-sunset.jpg') center/cover no-repeat;
   display:flex;align-items:flex-end;padding:32px;
 }
 .maintenance-image span{
