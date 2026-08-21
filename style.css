@@ -474,6 +474,29 @@ h1,h2,h3,h4{font-family:var(--font-display);font-weight:600;margin:0 0 16px;colo
   font-weight:600;
 }
 
+/* Owners card (about page) */
+.owners-card{
+  display:grid;
+  grid-template-columns:180px 1fr;
+  gap:28px;
+  align-items:center;
+  background:#fff;
+  border-radius:20px;
+  box-shadow:var(--card-shadow);
+  padding:32px;
+  max-width:min(900px, calc(100% - 56px));
+  margin:24px auto 0;
+}
+.owners-card img{
+  width:100%;
+  aspect-ratio:1/1;
+  object-fit:cover;
+  border-radius:14px;
+}
+.owners-card h2{margin:0 0 10px;font-size:21px;}
+.owners-card p{color:var(--gray);font-size:14.5px;line-height:1.7;margin:0;}
+.owners-card .section-label{margin-bottom:4px;}
+
 /* Page header (subpages) */
 .page-hero{
   background:linear-gradient(160deg,var(--navy) 0%,var(--teal) 100%);
@@ -653,6 +676,8 @@ footer{background:var(--navy);color:#a9c3bf;border-top:1px solid rgba(255,255,25
 
 /* Responsive */
 @media (max-width: 980px){
+  .owners-card{grid-template-columns:1fr;text-align:center;}
+  .owners-card img{max-width:180px;margin:0 auto;}
   .hero-inner{grid-template-columns:1fr;}
   .hero-story h1{font-size:38px;}
   .gear-grid{grid-template-columns:repeat(3,1fr);}
