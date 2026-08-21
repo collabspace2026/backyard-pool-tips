@@ -4,6 +4,7 @@
 
 ## Maintenance guides
 
+- [Cloudy Water? Start Here.](https://backyardpooltips.com/cloudy-water): A complete, step-by-step guide to fixing cloudy pool water — testing, balancing, and filtering in the right order, every likely cause explained, and the mistake that makes it worse.
 - [Opening a Pool the Right Way](https://backyardpooltips.com/opening-a-pool): The correct order of operations for opening a pool for the season — cover off, prime the pump, balance before you shock.
 - [Closing a Pool for Winter](https://backyardpooltips.com/closing-a-pool): What to drain, what to leave alone, and the step most guides skip when winterizing.
 - [Common Pump & Filter Problems](https://backyardpooltips.com/pump-filter-problems): Symptom-to-fix troubleshooting for losing prime, short cycling, rising pressure, weak flow, and cloudy water.
