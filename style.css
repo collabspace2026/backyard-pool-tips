@@ -342,6 +342,8 @@ h1,h2,h3,h4{font-family:var(--font-display);font-weight:600;margin:0 0 16px;colo
   background:var(--teal);
   border-radius:20px;
   padding:64px 60px;
+  max-width:min(var(--content-width), calc(100% - 56px));
+  margin:0 auto;
 }
 .method-strip .section-label{color:var(--aqua);}
 .method-strip h2{color:#fff;font-size:30px;max-width:560px;}
@@ -373,7 +375,7 @@ h1,h2,h3,h4{font-family:var(--font-display);font-weight:600;margin:0 0 16px;colo
 
 /* Maintenance */
 .maintenance-section{
-  max-width:var(--content-width);
+  max-width:min(var(--content-width), calc(100% - 56px));
   margin:64px auto;
   border-radius:20px;
   overflow:hidden;
@@ -458,7 +460,7 @@ h1,h2,h3,h4{font-family:var(--font-display);font-weight:600;margin:0 0 16px;colo
 
 /* Disclosure bar */
 .disclosure-bar{
-  max-width:var(--content-width);
+  max-width:min(var(--content-width), calc(100% - 56px));
   margin:64px auto 90px;
   padding:30px 32px;
   background:#fff;
