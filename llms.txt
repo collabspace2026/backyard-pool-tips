@@ -9,6 +9,9 @@
 - [Salt vs Chlorine: True Maintenance Cost](https://backyardpooltips.com/salt-vs-chlorine-cost): The real 3-year cost comparison between a salt chlorination system and manual chlorine dosing, plus five salt systems worth considering.
 - [Best Pool Covers by Type & Size](https://backyardpooltips.com/best-pool-covers): Solar, thermal, safety and winter covers explained and matched to climate and pool shape, plus five covers worth considering.
 - [Best Pool Cleaning Robots & Equipment](https://backyardpooltips.com/best-pool-cleaning-robots): What separates a robot that climbs walls from one that gets stuck, runtime and filter maintenance, plus five cleaners worth considering.
+- [Best Pool Heaters & Heat Pumps](https://backyardpooltips.com/best-pool-heaters): Heat pump vs gas heater explained honestly, real running-cost math, sizing by climate, plus five heaters worth considering.
+- [Best Pool Filters: Sand vs Cartridge vs DE](https://backyardpooltips.com/best-pool-filters): The three filter types compared on filtration quality, maintenance effort and running cost, plus five filters worth considering.
+- [Best Pool Accessories Worth Actually Owning](https://backyardpooltips.com/best-pool-accessories): What genuinely earns a place in the pool shed vs what's marketed hard but rarely worth it, plus five accessories worth considering.
 
 ## Maintenance guides
 
@@ -20,6 +23,7 @@
 - [Opening a Pool the Right Way](https://backyardpooltips.com/opening-a-pool): The correct order of operations for opening a pool for the season — cover off, prime the pump, balance before you shock.
 - [Closing a Pool for Winter](https://backyardpooltips.com/closing-a-pool): What to drain, what to leave alone, and the step most guides skip when winterizing.
 - [Common Pump & Filter Problems](https://backyardpooltips.com/pump-filter-problems): Symptom-to-fix troubleshooting for losing prime, short cycling, rising pressure, weak flow, and cloudy water.
+- [Pool Water Chemistry Cheat Sheet](https://backyardpooltips.com/pool-chemistry-cheat-sheet): Every ideal range in one place - free chlorine, pH, alkalinity, calcium hardness, CYA and salt - plus the correct order to balance them.
 
 ## About
 
@@ -29,4 +33,4 @@
 
 ## Notes
 
-All 5 planned buying guides and 4 maintenance guides are published as of August 2026.
+All 8 buying guides and 9 maintenance guides are published as of August 2026.
