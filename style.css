@@ -333,9 +333,9 @@ h1,h2,h3,h4{font-family:var(--font-display);font-weight:600;margin:0 0 16px;colo
   box-shadow:var(--card-shadow);
 }
 .manifesto .section-label{color:var(--coral);}
-.manifesto div{display:grid;grid-template-columns:.7fr 1.3fr;gap:50px;align-items:start;}
-.manifesto h2{color:var(--navy);font-size:32px;max-width:340px;}
-.manifesto p{color:var(--gray);font-size:16px;line-height:1.75;}
+.manifesto-grid{display:grid;grid-template-columns:.7fr 1.3fr;gap:50px;align-items:start;}
+.manifesto h2{color:var(--navy);font-size:32px;max-width:340px;margin-bottom:0;}
+.manifesto p{color:var(--gray);font-size:16px;line-height:1.75;margin:0;}
 .sign-off{display:block;margin-top:16px;font-family:var(--font-display);font-style:italic;color:var(--teal);font-size:17px;}
 
 /* Method strip */
@@ -531,7 +531,7 @@ footer{background:var(--navy);color:#a9c3bf;border-top:1px solid rgba(255,255,25
   .guide-layout{grid-template-columns:1fr;}
   .featured-visual{min-height:320px;}
   .latest-grid{grid-template-columns:1fr 1fr;}
-  .manifesto div{grid-template-columns:1fr;}
+  .manifesto-grid{grid-template-columns:1fr;}
   .manifesto h2{max-width:none;}
   .method-steps{grid-template-columns:1fr;}
   .maintenance-section{grid-template-columns:1fr;}
